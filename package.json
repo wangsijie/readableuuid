@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "nanoid": "^2.1.9"
+  },
+  "name": "readid",
+  "version": "0.1.0",
+  "description": "Generate human-friendly, readable unique string ID by using nanoid",
+  "main": "app.js",
+  "repository": "https://github.com/wangsijie/readid",
+  "author": "wangsijie <i@sijie.wang>",
+  "license": "MIT",
+  "keywords": ["uuid", "nanoid", "random-string"]
+}
