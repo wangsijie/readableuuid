@@ -1,5 +1,5 @@
 import { customAlphabet } from 'nanoid'
 
-const generate = (): string => customAlphabet('23456789abcdefghjkmnpqrstuvwxyzABCDEFGHIJKMNPQRSTUVWXYZ', 22)();
+const generate = (length: number = 22): string => customAlphabet('123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ', length)();
 
 export default generate;
